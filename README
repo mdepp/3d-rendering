@@ -1,0 +1,10 @@
+Description:
+	Implements a software renderer in C++, which was more of an experiment than an effort to produce anything usable. Supports light (with specular highlights), object colours (at least in theory), but not textures.
+
+	It was built in Visual Studio Community 2017 using vcpkg for dependency management.
+
+Dependencies:
+	Assimp
+	GLM
+	SDL2
+	SDL2_image
