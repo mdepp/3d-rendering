@@ -15,8 +15,6 @@ using namespace std;
 
 class GameEngine;
 
-float cross(glm::vec2, glm::vec2);
-
 class RenderingEngine
 {
 public:

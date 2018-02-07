@@ -1,5 +1,4 @@
 #include "GameEngine.h"
-#include <Windows.h>
 
 GameEngine::GameEngine()
 {
@@ -25,7 +24,7 @@ GameEngine::GameEngine()
 	player.getCamera()->setDirection(glm::vec3(0, 0, -1));
 
 	models.push_back(Model());
-	models.back().loadFromFile("tief.3ds", "tief3ds/");
+	models.back().loadFromFile("TIEF.3DS", "tief3DS/");
 	models.back().setScale(glm::vec3(100, 100, 100));
 	models.back().setTranslation(glm::vec3(0, 0 , 0));
 

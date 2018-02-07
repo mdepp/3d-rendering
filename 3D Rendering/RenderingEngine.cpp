@@ -1,5 +1,4 @@
 #include "RenderingEngine.h"
-#include "Profiler.h"
 
 RenderingEngine::RenderingEngine(GameEngine* e): upVector(0, 1, 0)
 {
